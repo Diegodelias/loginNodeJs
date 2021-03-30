@@ -1,7 +1,7 @@
 # loginNodeJs
 Ejercicio de creación de login en nodejs con opción mandar mail de reseteo de  password
 
-https://youtu.be/fHAFRa9xN-E 
+video demostracion : https://youtu.be/fHAFRa9xN-E 
 
 ![](fotos/1.jpg)
 ![](fotos/2.jpg)
