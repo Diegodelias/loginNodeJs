@@ -1,0 +1,38 @@
+<%- layout('layouts/main.ejs') %>
+
+
+<header class=" max-w-lg mx-auto">
+    <h1 class="text-4xl font-bold text-white text-center">Perfil</h1>
+</header>
+
+<main class="bg-white max-w-2xl mx-auto p-8 md:p-12 my-10 rounded-lg shadow-2xl">
+<section>
+    <h3 class="font-bold text-2xl">Bienvenido a tu perfil <%= usuario.email %></h3>
+    <p class="text-gray-600 pt-2"> tu password es: </p>
+    <p class="text-gray-600 pt-2">  <%= usuario.password %> </p>
+    <p class="text-gray-600 pt-2"> tu id: </p>
+    <p class="text-gray-600 pt-2">  <%= usuario.id %> </p>
+   
+</section>
+
+<section class="mt-10">
+  
+
+</section>
+
+<div class="  max-w-lg mx-auto   flex justify-end olvidaste">
+   
+
+    <p class="text-sm text-purple-600 hover:text-purple-700 hover:underline "> <a href="/logout" class="font-bold hover:underline">Cerrar sesión</a></p>
+    
+    </div>
+    
+
+</main>
+
+
+
+
+
+
+
